@@ -1,0 +1,15 @@
+{
+    "name": "wajdiii/wp-ignition",
+    "description": "Wordpress Starter kit",
+    "authors": [
+        {
+            "name": "Wajdi",
+            "email": "wajdi@lajungle.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WPIgnition\\": "src/WPIgnition/"
+        }
+    }
+}
