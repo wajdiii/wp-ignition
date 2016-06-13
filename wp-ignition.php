@@ -7,7 +7,7 @@
  * Author: <a href="http://www.lajungle.fr">La Jungle</a>
  */
 
-require_once( dirname( __FILE__ ) . '/vendor/autoload.php' );
+require_once( __DIR__ . '/vendor/autoload.php' );
 
 use WPIgnition\WPIgnition;
 use WPIgnition\Wordpress\PostType\News;
@@ -18,6 +18,5 @@ $actions = array(
   new Category(),
 );
 
-
-$todolist = new WPIgnition($actions);
-$todolist->execute();
+$wpi = new WPIgnition($actions);
+$wpi->execute();
